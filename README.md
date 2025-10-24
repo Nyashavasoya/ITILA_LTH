@@ -67,7 +67,7 @@ python3 main.py --prune_type=lt --arch_type=fc1 --dataset=mnist --prune_percent=
 
 ##  Adding New Models or Datasets
 
-### ▶ Adding a New Architecture
+### - Adding a New Architecture
 1. Create a file in `/archs/<dataset_name>/new_model.py`.
 2. Define your PyTorch model in it.
 3. Import the model in `main.py` under the appropriate dataset section.
@@ -77,7 +77,7 @@ python3 main.py --prune_type=lt --arch_type=fc1 --dataset=mnist --prune_percent=
        model = new_model.MyModel().to(device)
    ```
 
-### ▶ Adding a New Dataset
+### - Adding a New Dataset
 1. Create `/archs/new_dataset/` and add compatible model files.
 2. Add loading logic in `main.py` similar to existing datasets.
 3. Ensure image size, channels, and classes match the architecture.
@@ -94,3 +94,6 @@ python3 combine_plots.py
 
 This script combines and compares the test accuracy vs. sparsity curves for both methods.  
 
+Results:
+<img width="941" height="865" alt="image" src="https://github.com/user-attachments/assets/51742ee3-7ed7-44b6-b60f-d24119b477f9" />
+<img width="1035" height="828" alt="image" src="https://github.com/user-attachments/assets/a1662b27-c47e-40bd-bb9a-e44e132bd853" />
