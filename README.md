@@ -1,9 +1,7 @@
 # ITILA_LTH
 #  Lottery Ticket Hypothesis — PyTorch Implementation
 
-[![Made With Python](https://img.shields.io/badge/Made%20with-Python%203.7-brightgreen)]()
-[![Framework](https://img.shields.io/badge/Framework-PyTorch-red)]()
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]()
+
 
 This repository provides a **PyTorch implementation** of the paper  
  *“The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks”*  
